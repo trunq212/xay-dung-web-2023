@@ -1,0 +1,22 @@
+*h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+/*HTML*/ 
+strong {
+color: aquamarine;
+}
+/* class selector */
+.sizechu {
+    font-size: 16px;
+}
+/* ID selector */
+#mauvang {
+    background-color: blanchedalmond;
+}
+div strong{
+    color: deeppink;
+
+}
+div>p>strong {
+    color: greenyellow;
+}

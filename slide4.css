@@ -1,0 +1,27 @@
+nav{
+    width: 100%;
+    height:55px;
+    background-color: aqua;
+}
+nav ul li {
+    list-style: none;
+
+}
+li a {
+    color: red;
+    font-size: 30px;
+    text-decoration: none;
+padding: 12px;
+
+}
+li a:hover{
+    color: black;
+    
+    background-color: yellow;
+
+}
+ul>li{
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+}

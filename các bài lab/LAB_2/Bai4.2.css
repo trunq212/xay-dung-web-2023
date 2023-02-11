@@ -1,0 +1,19 @@
+.all{
+    text-align: center;
+}
+img{
+    width: 550px;
+}
+.menu > a:visited{
+    color: blue;
+}
+.menu > a{
+    color: blue ;
+    text-decoration: none;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+.menu > a:hover{
+    color: red;
+    text-decoration: underline;
+}
