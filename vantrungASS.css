@@ -3,9 +3,10 @@
     margin: 0;
 }
 #tong {
+    box-shadow: 0px 1px 20px 1px black;
     width: 90%;
     margin: auto;
-    height: auto;
+    height: 2420px;
 }
 header {
     width: 100%;
@@ -15,7 +16,8 @@ header {
 }
 footer{
     width: 100%;
-    height: 200px;
+    float: left;
+    height: 170px;
     background-image: url(http://c3tranphu.daknong.edu.vn/wp-content/uploads/THPT-TRA%CC%82%CC%80N-PHU%CC%81.png);
     background-size: 100% 100%;
 }
@@ -31,12 +33,6 @@ nav a{
 
 }
 
-footer{
-    background-color: black;
-    width: 100%;
-    height: 100px;
-    float:left;
-}
 iframe{
     width: 100%;
     height: 100%;
@@ -70,7 +66,7 @@ aside{
     margin-top: 0.5%;
 }
 article{
-    height: 3000px;
+    height: 2000px;
     width: 59.5%;
     float: left;
     margin-top: 0.5%;
@@ -241,7 +237,7 @@ table tr td {
 /*= PHẦN NỘI DUNG PHỤ  ============================================================================= */
 .noidungphu{
     width: 20%;
-    height: 3000px;
+    height: 2000px;
     float: left;
     text-decoration: none;
     margin-top: 0.5%;
@@ -360,6 +356,9 @@ form button.dangky{
     width: 100%;
     height: 500px;
 }
+.abcdef:hover {
+    text-decoration: none;
+}
 .leftnd3 .tintucso h2{
     width: 100%;
     height: 30px;
@@ -393,6 +392,13 @@ form button.dangky{
     padding-left: 20px;
     padding-bottom: 5px;
     padding-top: 5px;
+
+}
+.leftnd3 .thanhcuon{
+    height: 200px;
+    overflow-x: auto;
+    padding: 20px;
+
 }
 
 .leftnd4{
@@ -400,12 +406,15 @@ form button.dangky{
     height: 300px;
     background-color: white;
     border: 2px solid;
+    padding: 10px
+    ;
 }
 .leftnd4 .vd h2{
 width: 50%;
 height: 200px;
 background-color: yellow;
 }
+
 
 
 /*PHẦN NỘI DUNG PHỤ============================================================================= */
