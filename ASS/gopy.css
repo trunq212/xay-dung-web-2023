@@ -1,0 +1,38 @@
+article{
+    width:59.2%;
+}
+article  h1{
+    font-size: 35px;
+    text-align: center;
+    color: red;
+    border: 2px solid;
+    border-radius: 8px;
+    background-color: aqua;
+    line-height: 50px;
+  
+}
+p{
+    font-size: 20px;
+}
+textarea{
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 15px;
+    width: 98.5%;
+    height: 170px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    float:right;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+strong{
+    float: right;
+}
+article{
+    width: 59%;
+    height: 550px;
+    background-color: rgb(213, 255, 255);
+}

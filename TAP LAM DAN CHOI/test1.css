@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0
+}
+#all{
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+header{
+    width: 100%;
+    height: 90px;
+    background-color:rgb(221, 28, 28);
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+
+}
+article{
+    width: 70%;
+    height: 1000px;
+    background-color: blueviolet;
+    float: left;
+
+}
+aside{
+    width: 30%;
+    height: 1000px;
+    background-color: red;
+    float: left;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: yellow;
+    float: left;
+}
+/* =================================================================================== */
+.logo img{
+    width: 140px;
+    height: 40px;
+
+}
+
+ul li input{
+    width: 360px;
+    height: 35px;
+    float: left;
+    border: none;
+    outline: none;
+    border-radius: 2px 0px 0px 2px;
+    padding-left: 10px;
+
+}
+button{
+    width: 30px;
+    height: 35px;
+    border: none;
+    background-color: black;
+    border-radius: 0px 2px 2px 0px;
+    color: white;
+}
+.nd ul li  {
+    float:left;
+    margin-left: 20px;
+    list-style: none;
+    font-size: 16px;
+    margin-top: 25px;
+}
+.nd ul li a{
+    text-decoration: none;
+    color: white;
+}
+.seach {
+    width: 400px;
+    height: 35px;
+    background-color: black;
+    border-radius: 2px;
+    
+}
+.nd a{
+    display: block;
+    text-align: center;
+
+}
+i{
+    font-size: 25px;
+}
+/* ////// */
+nav a{
+    padding-top: 7px;
+
+}
+
+/* .trung1{
+    text-align: center;
+}
+.trung1 a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 40px;
+    margin: 0px 40px ;
+}
+.trung1 a:hover{
+    color:rgb(255, 10, 10);
+
+} */
+.cha > ul {
+  
+    margin: 0px;
+  }
+  .cha > li {
+    position: relative;
+  }
+  .cha > ul > li {
+    display: inline-block;
+    position: relative;
+   
+  }
+  .cha > ul > li > a {
+    display: block;
+    line-height: 50px;
+    color: white;
+    margin: 0 25px;
+    text-decoration: none;
+  }
+  .cha a:hover {
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+    color: brown;
+    background-color: rgb(153, 199, 248);
+  }
+  .con {
+    position: absolute;
+    background-color: rgb(124, 162, 231);
+    width: 70%;
+    color: white;
+    display: none;
+    list-style-type: none;
+  }
+  .con > li {
+    margin-left: -40px;
+    padding: 15px;
+  }
+  .con li:hover {
+    border-radius: 10px;
+    color: brown;
+    background-color: rgb(153, 199, 248);
+  }
+  .cha li:hover .con {
+    display: block;
+    background-color: rgb(124, 162, 231);
+  
+    border-radius: 10px;
+  }
+  
+  .cha {
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(124, 162, 231);
+  }
+  .con>li>a{
+      color: white;
+      text-decoration: none;
+  }
+  
+

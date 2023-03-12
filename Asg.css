@@ -1,0 +1,365 @@
+.tong{
+    margin:auto;
+    width: 80%;
+    height:1000px;
+    background-color: rgb(196, 245, 229);
+}
+.noidung img:hover{
+    transform:scale(0.9);
+    transition:all .5s ease;
+}
+header{
+    width:100%;
+    height:140px;
+    border: 1px solid black;
+}
+img.logo{
+    width:400px;
+    margin-top: 10px;
+}
+img.img1{
+    width: 700px;
+    height: 140px;
+    top: 9px;
+    float: right;
+    right: 158px;
+    position: absolute;
+}   
+nav {
+    width: 100%;
+    height:50px;
+    background-color: rgb(23, 190, 219);
+    border: 1px solid black;
+}
+nav a{
+    color:rgb(0, 0, 0);
+    text-decoration:none;
+    font-size: 15px;
+    line-height: 35px;
+    text-transform: uppercase;  //viết hoa
+}
+nav a:hover {
+    color:rgb(255, 0, 0);
+}
+button{
+    width:150px;
+    height:40px;
+    border-radius: 10px;
+    background-color: rgb(32, 211, 243);
+    margin-left: 70px;
+    margin-top: 5px;
+    border-color: aquamarine;
+}
+button:hover{
+    animation:animation 5s linear infinite;
+    border:none;
+    transform:translate(0.9);
+    transition:all .5s ease;
+}
+aside{
+    width: 30%;
+    height: 900px;
+    background-color: black;
+    float: left;
+}
+/* ===================================================== */
+article{
+    width: 70%;
+    height:590px;
+    background-color: rgb(196, 245, 229);
+    float: left;
+}
+.baimoidang{
+    width:100%;
+    height: 590px;
+    background-color: rgb(196, 245, 229);
+    line-height: 17px;
+    border: 1px solid black;
+}
+.khung{
+    width:200px;
+    background-color: rgb(9, 28, 240);
+    margin-left: 13px;
+    margin-top:5px;
+    line-height: 10px;
+    text-align: center;
+    color:white;
+    border-radius: 10px;
+    border:1px solid white;
+}
+.allbaimoidang{
+    width:100%;
+    height: 505px;
+    float:left;
+}
+/* ==================================================== */
+/* ==================================================== */
+/* ==================================================== */
+footer{
+    
+    width:100.1%;
+    height:230px;
+}
+.p1,.p2,.p3{
+    width:33.33%;
+    height:230px;
+    background-color: rgb(26, 26, 26);
+    float:left;
+    color:white;
+}
+.p1 a, p{
+    margin-left: 15px;
+}
+.p2 input{
+    width:150px;
+    height:30px;
+    background-color: rgb(238, 208, 208);
+    color:black;    
+    border-radius:5px;
+}
+.p2 a{
+    color:white;
+    font-size: 30px;
+    text-decoration:none;
+}
+.p2 a img{
+    width:150px;
+    border:1px solid black;
+    border-radius:4px;
+}
+.p3 a:hover{
+    color:blue;
+}
+.p3 input{
+    width:150px;
+    height:30px;
+    background-color: rgb(240, 212, 212);
+    color:black;    
+    border-radius:5px;
+}
+.p3 a{
+    color:white;
+    font-size: 20px;
+    text-decoration:none;
+}
+/* ==================================================== */
+.lichcongtac{
+    width:100%;
+    height:550px;
+    border: 1px solid black;
+}
+.img2{
+    width:45%;
+    height:490px;
+    float:left;
+    margin-top: 5px;
+}
+.img2 {
+    width: 520px;
+    height: 485px;
+    margin-left: 10px;
+}
+.img2 a{
+    color:black;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    line-height: 60px;
+}
+.bonanh{
+    width:51%;
+    height:500px;
+    float:left;
+    line-height: 25px;
+    margin-left: 20px;
+}
+.lichcongtac a{
+    display:block;
+    text-align: center;
+    font-size: 20px;
+
+}
+.lichcongtac a:hover{ 
+    color: rgb(240, 47, 47);  
+}
+.bonanh .img3{
+    width:45%;
+    height: 230px;
+    float:left;
+    margin: 10px;
+}
+.bonanh .img3 img.img2_1{
+    width:300px;
+}
+.bonanh .img3 img.img2_2{
+    width:300px;
+    margin-left: 15px;
+    height: 194px;
+}
+.bonanh .img3 img.img2_3{
+    height: 225.5px;
+}
+.bonanh .img3 img.img2_4{
+    height: 225.5px;
+    width: 295px;
+    margin-left: 15px;
+}
+.bonanh .img3 a{
+    text-decoration: none;
+    color:black;
+    text-align: center;
+}
+.bonanh a:hover{ 
+    color: rgb(233, 30, 30);  
+}
+
+/* ========================================================== */
+
+.bai{
+    width:10%;
+    height:130px;
+    float:left;
+    margin:50px;
+    text-align: center;
+    margin-left: 60px;
+}
+.bai a{
+    text-align: center;
+    text-decoration:none;
+    font-size: 18px;
+
+}
+a{
+    text-align: center;
+    text-decoration:none;
+    font-size: 20px;
+}
+a:hover{
+    color:red;
+}
+/* ok */
+.banoidung{
+    width:100%;
+    height:520px;
+    background-color: rgb(196, 245, 229);
+    float:left;
+    border: 1px solid black;
+}
+.left{
+    width:30%;
+    height:500px;
+    float:left;
+    margin-left: 20px;
+    /* background-color: aqua; */
+}
+.left h3{
+    width:150px;
+    line-height:50px;
+    background-color: rgb(0, 34, 255);
+    color:white;
+    text-align: center;
+    border-radius: 5px;
+}
+/* ok?\ */
+.between{
+    width:35%;
+    height:490px;
+    float:left;
+}
+.baibetween a{
+    float:left;
+    margin-left: 10px;
+    width: 150px;
+}
+.baibetween{
+    width:105%;
+    height:auto;
+    float:left;
+    margin-top:30px;
+}
+.between img{
+    width:110px;
+}
+/* ok */
+.right{
+    width:30%;
+    height:490px;
+    float:left;
+    /* background-color: violet; */
+}
+.right h3{
+    width:150px;
+    line-height:45px;
+    background-color: rgb(0, 0, 255);
+    color:white;
+    text-align: center;
+    border-radius: 5px;
+}
+.right img{
+    width:350px;
+}
+/* ====== */
+.hoatdongkhac{
+    width:100%;
+    height:550px;
+    background-color: rgb(196, 245, 229);
+    float:left;
+    border: 1px solid black;
+}
+.hoatdongkhac h3{
+    width:200px;
+    line-height:45px;
+    background-color: rgb(25, 0, 255);
+    color:white;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.hoatdongkhac a{
+    float:left;
+    margin-left: 20px;
+    color:black;
+}
+.hoatdongkhac img{
+    margin-left: 70px;
+}
+a:hover{
+    color:red;
+}
+.hoatdong{
+    width:49%;
+    float:left;
+    height:180px;
+    margin:20px 5px;
+    margin-left: 5px;
+    /* background-color: red; */
+}
+/* ok */
+.matran{
+    width:100%;
+    height:600px;
+    float:left;
+    background-color: rgb(196, 245, 229);
+    border: 1px solid black;
+}
+.matran h3{
+    width:300px;
+    line-height:45px;
+    background-color: rgb(21, 0, 255);
+    color:white;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.matrande{
+    width:30%;
+    float:left;
+    height:180px;
+    margin:25px 10px;  
+    margin-left: 30px;
+    /* background-color: red; */
+}
+.matrande img{
+    float: center;
+    margin-left: 40px;
+}

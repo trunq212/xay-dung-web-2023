@@ -1,0 +1,29 @@
+article{
+    width:59.2%;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    color: red;
+    border: 2px solid;
+    border-radius: 8px;
+    background-color: aqua;
+    line-height: 50px;
+
+}
+ h2{
+    color: blue;
+
+}
+h3{
+    color: blue;
+}
+h4{
+    color: red;
+    padding-top: 5px;
+}
+h4 p {
+    color: black;
+    font-weight: none;
+}

@@ -1,0 +1,73 @@
+article{
+    width:59.2%;
+}
+article  h1{
+    font-size: 35px;
+    text-align: center;
+    color: red;
+    border: 2px solid;
+    border-radius: 8px;
+    background-color: aqua;
+    line-height:50px;
+  
+}
+.hoidaptong {
+        width: 100%;
+        padding-bottom: 50px;
+        float: left;
+        background-color: rgb(255, 252, 229);
+    }
+    
+    td {
+        font-weight: bold;
+        font-size: 17px;
+    }
+    
+    .hoidaptong input {
+        margin-left: 40px;
+        padding-right: 400px;
+        height: 35px;
+        border-radius: 7px;
+    }
+    
+    .danhsach {
+        margin-left: 40px;
+        padding-right: 400px;
+        height: 35px;
+        border-radius: 7px;
+    }
+    
+    textarea {
+        margin-left: 40px;
+        border-radius: 7px;
+        border-color: red;
+        margin-top: 80px;
+    }
+    
+    .mot {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    
+    .nutbam {
+        color: whitesmoke;
+        background-color: rgb(68, 157, 68);
+        margin-left: 66%;
+        margin-top: 20px;
+        border: none;
+        padding: 15px;
+        border-radius: 5px;
+    }
+    
+    button:hover {
+        color: red;
+    }
+    
+    .mau3 h3 {
+        width: 99%;
+        background-color: rgb(60, 169, 252);
+        color: white;
+        line-height: 40px;
+        padding-left: 10px;
+        margin-top: 5px;
+    }

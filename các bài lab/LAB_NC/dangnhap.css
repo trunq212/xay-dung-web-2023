@@ -1,0 +1,69 @@
+
+.dangnhap {
+        width: 60%;
+        height: 600px;
+        margin: 0 auto;
+        box-shadow: 2px 3px 2px 3px black;
+    }
+    
+    h1 {
+        padding-top: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-left: 100px;
+        margin-top: 50px;
+        width: 50%;
+    }
+    
+    input {
+        border: none;
+        border-bottom: 1px solid;
+        padding-right: 80px;
+    }
+    
+    .nd2 {
+        width: 50%;
+        height: 580px;
+    }
+    
+    table {
+        margin-left: 100px;
+    }
+    
+    td {
+        padding-top: 50px;
+    }
+    
+    .ip {
+        margin-left: 100px;
+    }
+    
+    button {
+        margin-top: 50px;
+        background-color: rgb(14, 135, 227);
+        border: none;
+        width: 100px;
+        height: 35px;
+        border-radius: 5px;
+        color: whitesmoke;
+        margin-left: 100px;
+        box-shadow: 1px 1px 1px 1px black;
+        
+    }
+    
+    .anh img {
+        width: 300px;
+        height: 300px;
+        float: right;
+        margin-right: 100px;
+        margin-top: 140px;
+    }
+.image{
+    float: right;
+    padding-top:  80px; 
+    padding-right: 60px;
+}
+td input:focus{
+    outline: none;
+}
+td input:hover{
+}

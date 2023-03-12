@@ -1,0 +1,608 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#tong a:hover{
+    color: red;
+    
+}
+#tong {
+    box-shadow: 0px 1px 20px 1px black;
+    width: 90%;
+    margin: auto;
+    height: 2673px;
+}
+header {
+    width: 100%;
+    height: 210px;
+    background-image: url(http://c3tranphu.daknong.edu.vn/wp-content/uploads/THPT-TRA%CC%82%CC%80N-PHU%CC%81.png);
+    background-size: 100% 100%;
+}
+footer{
+    width: 100%;
+    float: left;
+    height: 170px;
+    background-image: url(http://c3tranphu.daknong.edu.vn/wp-content/uploads/THPT-TRA%CC%82%CC%80N-PHU%CC%81.png);
+    background-size: 100% 100%;
+}
+nav {
+
+    background-color: rgb(107, 196, 240);
+    width: 100%;
+    height: 45px;
+    margin-top: 2px;
+}
+nav a{
+    padding-top: 7px;
+
+}
+
+.trung1{
+    text-align: center;
+}
+.trung1 a{
+    color: white;
+    text-decoration: none;
+    font-size: 27px;
+    text-transform: uppercase;
+    line-height: 40px;
+    margin: 0px 40px ;
+}
+.trung1 a:hover{
+    color:rgb(255, 10, 10);
+
+}
+
+
+aside{
+    height: 2244px;
+    width: 20%;
+    float:right;
+    margin-top: 0.5%;
+}
+article{
+    height: 2244px;
+    width: 59.5%;
+    float: left;
+    margin-top: 0.5%;
+    /* background-color: rgb(219, 79, 19); */
+    margin-left: 0.5%;
+
+
+}
+/* ===============================================PHẦN NỘI DỤNG PHỤ================================================ */
+ 
+
+.tin{
+    
+    width: 98%;
+    height: 40px;
+    background-color: rgb(249, 9, 9);
+    text-align: center;
+    line-height: 40px;
+    border-bottom: 1px solid rgb(255, 0, 0);
+    border: 2px solid rgb(255, 0, 0);
+    color: rgb(138, 253, 255);
+   
+    border-start-start-radius :8px; 
+    border-top-right-radius: 8px;
+
+}
+.tinmoi{
+    width: 94%;
+    background-color:white;
+    height: 110px;
+    border-top: 0.5px  solid rgb(255, 0, 0);
+    border-left: 2px  solid rgb(249, 0, 0);
+    border-right: 2px  solid rgb(255, 0, 0);
+    border-bottom: 1.5px solid rgb(255, 0, 0);
+    text-align:left;
+    padding-left: 4%  ;
+
+}
+.tinmoi a{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 10px;
+}
+.tinmoi p{
+    color: red;
+}
+/* .tinmoi a:hover{
+    color: aqua;
+} */
+.van{
+    font-size: 20px;
+    width: 98%;
+    background-color: rgb(138, 253, 255);
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-bottom: 1px solid black;
+    border: 2px solid black;
+    margin-top: 10px;
+    color: blue;
+
+}
+.vanban{
+    width: 94%;
+    background-color:white;
+    height: 110px;
+    border-top: 0.5px  solid black;
+    border-left: 2px  solid black;
+    border-right: 2px  solid black;
+    border-bottom: 1.5px solid black;
+    text-align:left;
+    padding-left: 4%  ;
+
+}
+.vanban i{
+    font-size: 24px;
+    color: black;
+    margin-top: 5px;
+
+}
+.vanban a{
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+}
+.vanban p{
+    font-size: 17px;
+}
+.sukien0{
+    width: 98%;
+    background-color: rgb(138, 253, 255);
+
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-bottom: 1px solid black;
+    border: 2px solid black;
+    color: blue;
+    margin-top: 10px;
+
+}
+.sukien1{
+    width: 95%;
+    background-color:white;
+    height: 280px;
+    border-top: 0.5px  solid black;
+    border-left: 2px  solid black;
+    border-right: 2px  solid black;
+    border-bottom: 1.5px solid black;
+    padding-left: 3%  ;
+    padding-top: 2%;
+
+}
+.sukien1 a{
+    
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+float: right;    
+
+}
+
+/* table tr td a{
+    text-decoration: none;
+    font-size: 16px ;
+    color: black;
+
+}
+table{
+    width: 252px;
+    height: 400px;
+    border: 2px solid gray;
+}
+table tr td {
+    border-bottom: 2px solid gray;
+} */
+.cuocthi0{
+    width: 98%;
+    background-color: rgb(138, 253, 255);
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-bottom: 1px solid black;
+    border: 2px solid black;
+    color: blue;
+    margin-top: 10px;
+
+
+}
+.cuocthi1{
+    width: 94%;
+    background-color:white;
+    height: 390px;
+    border-top: 0.5px  solid black;
+    border-left: 2px  solid black;
+    border-right: 2px  solid black;
+    border-bottom: 1.5px solid black;
+    padding-left: 4%;
+    
+}   
+.cuocthi1 a{
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    float: left;
+}
+.thongke {
+    width: 98%;
+    background-color: rgb(138, 253, 255);
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-bottom: 1px solid black;
+    border: 2px solid black;
+    color: blue;
+    margin-top: 10px;
+    font-size: 22px;
+}
+.ndthongke  {
+    width: 94%;
+    background-color:white;
+    height: 150px;
+    border-top: 0.5px  solid black;
+    border-left: 2px  solid black;
+    border-right: 2px  solid black;
+    border-bottom: 1.5px solid black;
+    padding-left: 4%;
+}
+.ndthongke p {
+    margin-top: 7px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+/*=============================================== PHẦN NỘI DUNG PHỤ   ============================================================================= */
+/* ///
+//////
+//////
+//////
+/// */
+/*= PHẦN NỘI DUNG PHỤ  ============================================================================= */
+.noidungphu{
+    width: 20%;
+    height: 2000px;
+    float: left;
+    text-decoration: none;
+    margin-top: 0.5%;
+    /* background-color: rgb(240, 11, 11); */
+}   
+.noidungphu .leftnd1{
+    width: 100%;
+    height: 290px;
+    background-color: rgb(255, 255, 255);
+    border:2px solid ;
+    border-radius: 8px;
+}
+.form_login{
+    width: 260px;
+    height: 300px;
+    background-color: rgb(16, 157, 53);
+    text-align: center;
+    font-size: 12px;
+    border: 2px solid;
+    border-radius: 10px;
+    position: relative;
+    top: 45px;
+    left: 200px;
+}
+form p.login{
+    padding-top: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+form p.tkmk{
+    padding-top: 10px;
+    margin-left: 25px;
+}
+form input{
+    width: 200px;
+    height: 30px;
+    border: 1.5px solid;
+    border-radius: 4px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+form input.check{
+    width: 12px;
+    height: 12px;
+    margin-top: 5px;
+}
+form button.dangnha{
+    width: 210px;
+    height: 32px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+form button:hover{
+    opacity: 0.8;
+}
+form a.forgot{
+    padding-left: 125px;
+    font-size: 10px;
+    display: block;
+}
+form button.dangky{
+    margin-top: 10px;
+    margin-left: 150px;
+    font-size: 10px;
+    padding: 5px;
+    background-color: rgb(38, 228, 0);
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+.leftnd2{
+    width: 100%;
+    height: 435x;
+    margin-top: 5px;
+    background-color: white;
+    border: 2px solid;
+    border-radius: 10px;
+}
+.leftnd2 .thoikhoabieu h2{
+    background-color: rgb(103, 252, 244);
+    border-bottom: 2px solid;
+    border-radius: 8px;
+    border-top: 0.1px;
+    text-align:center;
+}
+.leftnd2  a {
+    width: 100%;
+    height: 10px;
+    text-decoration: none;
+    font-size: 21px;
+    margin-left: 10px;
+    padding-top: 40px;
+}
+.leftnd2  p {
+    border-bottom:1px dotted  ;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.leftnd3 {
+    width: 100%;
+    height: 500x;
+    margin-top: 5px;
+    border: 2px solid ;
+    border-radius: 10px;
+    /* background-color: rgb(230, 19, 19); */
+}
+
+.abcdef:hover {
+    text-decoration: none;
+}
+.leftnd3 .tintucso h2{
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    padding-top: 5px;
+    border-bottom: 2px solid;
+    border-radius: 8px;
+    border-top: 0.1px;
+    text-align: center;
+    background-color: rgb(43, 255, 230);
+}
+/* .leftnd3 select {
+    width: 100%;
+    height: 500px;
+}
+.leftnd3 .tintucso select option {
+    font-size: 15px;
+    padding-top: 25px;
+    padding-left: 15px;
+    text-align: center;
+
+}
+.leftnd3 option{
+    width: 100%;
+    height: 50px;
+
+}
+
+.leftnd3 select option{
+
+}
+.leftnd3 .tintucso select   p {
+    border-bottom:1px dotted  ;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+} */
+.leftnd3 .thanhcuon{
+    height: 400px;
+    overflow-x: auto;
+    padding: 20px;
+
+}
+.noidung31 a {
+    font-size: 19px;
+}
+
+.leftnd4{
+    width: 100%;
+    height: 770px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.leftnd4 .lienket h2{
+    width: 100%;
+    height: 30px;
+    background-color: yellow;
+    text-align: center;
+    border-bottom: 2px solid; 
+    border-radius: 8px;
+
+}
+.leftnd4 .lienket img{
+    width: 100%;
+    height: 70px;
+}
+ .leftnd4 .lienket .anh111{
+    width: 100%;
+    height: 200px;
+    
+}
+
+.left5 iframe{
+    margin-top: 5px;
+    width: 255px;
+    height: 250px;
+    margin-left: 4px;
+}
+
+
+/*PHẦN NỘI DUNG PHỤ============================================================================= */
+
+
+/*===================== PHẦN NỘI DUNG CHÍNH=======MỞ BÀI ====================================================================== */
+.tinhot{
+    margin: 0 auto;
+    width: 99%;
+    border:  2px solid black;
+    height: 440px;
+    margin-top: 5px;
+}
+.tinhot h2.tieudetinhot{
+    width: 100%;
+    height: 30px;
+    background-color: aqua;
+    border-bottom: 2px solid;
+}
+.tinphai{
+    width: 55%;
+    height: 400px;
+    /* background-color: red; */
+    float: left;
+}
+.tinphai a{
+    text-decoration: none;
+    font-size: 25px;
+}
+.tinphai p{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.tintrai{
+    width: 45%;
+    height: 400px;
+    /* background-color: blue; */
+    float: left;
+}
+.tintrai a {
+    text-decoration: none;
+    /* border-bottom:1px dotted  ; */
+    font-size: 20px; 
+}
+.tintrai p{
+    padding-top: 5px;
+    padding-bottom:5px;
+    border-bottom:1px dotted  ;
+
+}
+.tintrai .dongcuoi {
+    border-bottom:1px dotted ;
+
+}
+.nd1{
+    margin-top: 5px;
+    width: 99%;
+    height: 492px;
+    margin-left: 0.5% ;
+    border:  2px solid black;
+}
+.nd1 h2.anhchinh{
+    width: 100%;
+    height: 30px;
+    background-color: aqua;
+    border-bottom: 2px solid black;
+}
+
+.nd1 .anhndchinh img {
+    width: 100%;
+    height: 460px;
+}
+
+
+.nd2 {
+    margin-top: 5px;
+    border: 2px solid black;
+    width:99%;
+    margin-left: 2px;
+}
+.nd2 img {
+    margin-left: 32px;
+}
+.nd3{
+    margin-top: 5px;
+    margin-left: 2px;
+    width: 99%;
+    border:  2px solid black;
+    height: 370px;
+}
+.nd3 h2.tieudehd{
+    width: 100%;
+    height: 30px;
+    background-color: aqua;
+    border-bottom: 2px solid black;
+}
+.anhhd1{
+    width: 50%;
+    height: 280px;
+    float: left;
+}
+.vanbanhd1 h2 a{
+    font-size: 22px;
+    text-decoration: none ;
+}
+.vanbanhd2 p a{
+    float: left;
+    margin-top: -10px;
+    text-decoration: none;
+}
+.nd4{
+    margin: 0 auto;
+    width: 99%;
+    border:  2px solid black;
+    height: 370px;
+    margin-top: 10px;
+
+}
+.nd4 h2.tochuyenmon{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(28, 247, 255);
+    border-bottom: 2px solid black;
+}
+h1{
+    line-height: 50px;
+}
+
+
+
+
+
+
+/*===================== PHẦN NỘI DUNG CHÍNH ===KẾT THÚC========================================================================== */
+
